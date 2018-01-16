@@ -5,7 +5,7 @@ It essentially implements the paper cited in the citations section below.
 
 ## Overview
 The basic directory structure of the codebase is similar to that of Caffe repo because it was initially forked from the official Caffe repo but I some modifications to this Caffe along with the implementation of SVR Loss layer and varying momentum modification in the SGD optimizer in Caffe. Hence, the modified Caffe which is present in this project should only be used with this code.
-Just cloning from the above Github link gives you the entire code. Build the code by running “make -j8” in the code’s root directory. On a machine on which Caffe is properly setup, the make command should build everything required on the Caffe side.
+Just cloning from the above Github link gives you the entire code. Build the code by running **make -j8** in the code’s root directory. On a machine on which Caffe is properly setup, the make command should build everything required on the Caffe side.
 
 ## Detailed Instructions
 You'll need *MATLAB* to run the helper scripts (.m files) metioned below. Once Caffe is properly built by running the make command as mentioned earlier, follow the below steps:
